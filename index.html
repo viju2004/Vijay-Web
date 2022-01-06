@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Source+Code+Pro:wght@700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet"> 
+
+    <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="icon" href="favicon.ico">
+    <title>Vijay Mali | Developer</title>
+    <script>
+        document.addEventListener('contextmenu', 
+        event => event.preventDefault());
+        
+        function check()
+         {
+            if (document.getElementById('name').value == "" || document.getElementById('email').value == "" || document.getElementById('msg').value == "") {
+            alert("Fill All Fields !");
+            } 
+            else {
+
+                 var email1=/\w+[.]?\w+[@]\w+[.]?\w+[.]\w/ 
+                 var res=email1.test(document.getElementById('email').value);
+                 var name1=/[a-zA-Z]/ 
+                 var res1=name1.test(document.getElementById('name').value);
+
+                 if (!res1 && !res )
+                        {
+                             alert("Enter vallid data");  
+                        }
+                 else
+                        {
+                            document.write(email,name);
+                             document.getElementById('form').submit();
+                             alert("Your Message send successfully");
+                        }
+
+                
+                 }
+        }
+        //Function To Display Popup
+        function show() {
+        document.getElementById('abc').style.display = "block";
+        }
+        //Function to Hide Popup
+        function hide(){
+        document.getElementById('abc').style.display = "none";
+        }
+
+
+    </script>
+     
+</head>
+
+<body onload="hide()">
+            </div>
+            <div id="abc">
+            <!-- Popup Div Starts Here -->
+            <div id="popupContact">
+            <!-- Contact Us Form -->
+            <form action="#" id="form" method="post" name="form">
+            <img id="close" src="cross.png" onclick ="hide()">
+            <font id="para" style=" font-family: 'Dancing Script', cursive; font-family: 'Roboto Slab', serif; font-size:20px; color:white">Contact Us</font>
+            <input id="name" name="name" placeholder="Name" type="text" style="border-radius: 8px;color:white;border-color: rgb(255, 255, 255) ;background:#5a555e;" >
+            <input id="email" name="email" placeholder="Email" type="text" style="border-radius: 8px;color:white;border-color: rgb(255, 255, 255);background:#5a555e;">
+            <textarea id="msg" name="message" placeholder="Message" style="border-radius: 8px ;  color:white; border-color: rgb(255, 255, 255);background:#5a555e;"></textarea>
+
+            <button class="myButton" onclick="check()">Convey</button>
+            </form>
+            </div>
+            </div>
+
+    <div class="top">
+        <img id="internet" src="internet.png" alt="cloud">
+        <h1 style="color: #161517
+        ;
+        font-size: 50px;
+        margin: 50px auto 0 auto;
+        font-family: 'Amaranth', sans-serif;">Hi, I’m Vijay </h1>
+           <h2 style="color: #161517
+           ;
+           font-size: 40px;
+           margin: 15px auto 0 auto;
+           font-family: 'Amaranth', sans-serif;"> Nice to meet you. </h3> 
+<br>
+        <h5 style=" color: #6e21fc;
+        margin: 50px auto 0 auto;
+        font-size:22px;
+        font-family: 'Dancing Script', cursive;
+     
+        font-family: 'Roboto Slab', serif;">I design and code beautifully simple things, and I love what I do.
+        </h5>
+        
+        <img id="web" src="web.png" alt="web">
+
+        <img class="hero" src="hero.svg" >
+
+        <h4>   .....    ______________________________________________________________________      .....</h4>
+
+    </div>
+
+
+    <div class="mid">
+
+        <img class="profile" src="ss.svg" alt="profile">
+        <br>
+    
+
+        <h2 style=" color: #6e21fc;
+        margin: 50px auto 0 auto;
+        font-size:30px;
+        font-family: 'Dancing Script', cursive;
+     
+        font-family: 'Roboto Slab', serif;">Hello.</h2>
+        <br>
+
+        <p>Student of Government Polytechnic Miraj</em></p>
+        <p>I am an Web Developer .</p>
+
+        <hr>
+        <h2 style=" color: #6e21fc;
+        margin: 50px auto 0 auto;
+        font-size:30px;
+        font-family: 'Dancing Script', cursive;
+     
+        font-family: 'Roboto Slab', serif;">Skills</h2>
+        <div class="skillno1">
+
+            <div class="progress" style="border-radius: 9px;">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                aria-valuemin="0" aria-valuemax="100" style="width:90% ;border-color:black ">
+                  HTML
+                </div>
+              </div>
+              
+              <div class="progress"style="border-radius: 9px;">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"
+                aria-valuemin="0" aria-valuemax="100" style="width:85%;border-color:black" >
+                    JAVA
+                </div>
+              </div>
+              
+              <div class="progress"style="border-radius: 9px; ">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+                aria-valuemin="0" aria-valuemax="100" style="width:80%; border-color:black">
+                  CSS
+                </div>
+              </div>
+              
+              
+    
+
+        </div>
+          
+        
+
+        <hr>
+        <h2  style=" color: #6e21fc;
+        margin: 50px auto 0 auto;
+        font-size:30px;
+        font-family: 'Dancing Script', cursive;
+     
+        font-family: 'Roboto Slab', serif;">Get in Touch</h2>
+
+         <br>
+
+        <!-- <a class="myButton"  href="mailto:vijay1172004@gmail.com">Say Hello</a> -->
+        <!-- <a class="myButton"  href="Exam Form.html">Say Hello</a> -->
+        <!-- <a class="myButton" >Say Hello</a> -->
+        <!-- <input type="button" value="Say Hello" id="b1" onclick="contact()" style="position: relative; top : 65px ; left : 250px" > -->
+         <button value="Say Hello" class="myButton" onclick="show()">Say hello
+         </button>
+    </div>
+
+    <div class="bottom">
+        <a class="links" href="https://github.com/viju2004"> <img class="logo"src="github.png" alt="insta"> GitHub</a>
+        <a class="links" href="https://www.instagram.com/itz.viju/"> <img class="logo"src="instagram.png" alt="insta"> Instagram</a>
+      
+    </div>
+</body>
+</html>

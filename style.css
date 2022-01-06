@@ -1,0 +1,247 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+}
+h1{
+    color: #161517
+    ;
+    font-size: 50px;
+    margin: 50px auto 0 auto;
+    font-family: 'Amaranth', sans-serif;
+}
+
+h3{
+    color: #161517
+    ;
+    font-size: 40px;
+    margin: 15px auto 0 auto;
+    font-family: 'Amaranth', sans-serif;
+}
+
+
+h5{
+    color: #6e21fc;
+    margin: 50px auto 0 auto;
+    font-size:22px;
+    font-family: 'Dancing Script', cursive;
+ 
+    font-family: 'Roboto Slab', serif;
+}
+
+
+  h2{
+     color: #6e21fc;
+     margin: 50px auto 0 auto;
+     font-size:37px;
+     font-family: 'Dancing Script', cursive;
+     font-family: 'Roboto Slab', serif;
+}
+h4{
+    color:#ff8945;
+    position: relative;
+     font-size:30px;
+     font-family: 'Amaranth', sans-serif;
+     bottom:125px;
+}
+.top{
+    background-color: #E4F9F5;
+    max-height: 604px;
+   position: relative;
+   padding-top: 100px;
+}
+#internet{
+   max-width:180px;
+   max-height: 140px;
+   position: absolute;
+   right: 130px;
+   top: 30px;
+  
+}
+#web{
+    max-width:180px;
+    max-height: 140px;
+    position:absolute;
+    left: 130px;
+    bottom:200px;
+ }
+
+.middle{
+    padding-top:100px; 
+    color: #40514E;
+}
+.profile{
+        width: 200px;
+        height: 200px;
+        margin-top: 120px;
+}
+.hero{
+
+    width: 500px;
+    height: 400px;
+    position: relative;
+    bottom:30px;
+    align-content: center;
+    
+}
+p{
+    font-size: 18px;;
+    font-family: 'Inconsolata', monospace;
+}
+hr{
+    border-top:7px dotted #ff8945;
+    width: 90px;
+    margin: 50px auto;
+}
+.skillno1{
+    width: 400px;
+    margin: 50px auto 0px auto;
+    text-align: center;  
+    line-height: 30px;
+
+}
+
+.para{
+    width: 780px;
+    margin: 50px auto 50px auto;
+    line-height: 30px;
+    font-size:20px;
+    font-family: 'Poppins', sans-serif;
+}
+.links{
+    text-decoration: none;
+    color: #eaf6f6;
+    font-size: 18px;
+    margin: 0px 30px;
+}
+.links:hover{
+        color:#08ff0c
+        ;
+}
+.logo{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 7px;
+    right:5px ;
+}
+
+
+/* ----------------------Button Design------------------------ */
+.myButton {
+
+
+    
+	box-shadow: 7px 7px 15px -5px  #161517 100%;
+	background:linear-gradient(to bottom,   #171718  5%,  #161517 100%);
+	background-color:#ffffff;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:22px;
+	padding:12px 27px;
+	text-decoration:none;
+
+    transition: 200ms ease-in;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+.myButton:hover {
+    transform: scale(1.1);
+   
+    background:linear-gradient(to bottom, #6975ff 5%, #6975ff 100%);
+
+	background-color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.bottom{
+   
+        width:98.9vw;
+        height: 90px;
+        padding: 50px 0px 20px;
+        background:#6e21fc;;
+}
+/* contact us */
+#abc {
+    width:100%;
+    height:100%;
+    opacity:.95;
+    top:0;
+    left:0;
+    display:none;
+    position:fixed;
+    background-color:#313131;
+    overflow:auto
+    }
+    img#close {
+    position:absolute;
+    right:10px;
+    top:10px;
+    cursor:pointer
+    }
+    div#popupContact {
+    position:absolute;
+    left:50%;
+    top:13%;
+    margin-left:-202px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto Slab', serif;
+    }
+    form {
+    max-width:250px;
+    max-height:440px;
+    min-width:0px;
+    padding:10px 60px;
+    border:2px solid gray;
+    border-radius:10px;
+    font-family: 'Roboto Slab', serif;
+    background-color:#302c2c;
+    }
+    
+    input[type=text] {
+    width:82%;
+    padding:10px;
+    margin-top:30px;
+    border:1px solid #ccc;
+    padding-left:40px;
+    font-size:16px;
+    font-family:raleway
+    }
+    #name {
+    background-image:url(../images/name.jpg);
+    background-repeat:no-repeat;
+    background-position:5px 7px
+    }
+    #email {
+    background-image:url(../images/email.png);
+    background-repeat:no-repeat;
+    background-position:5px 7px
+    }
+    textarea {
+    background-image:url(../images/msg.png);
+    background-repeat:no-repeat;
+    background-position:5px 7px;
+    width:82%;
+    height:95px;
+    padding:10px;
+    resize:none;
+    margin-top:30px;
+    border:1px solid #ccc;
+    padding-left:40px;
+    font-size:16px;
+    font-family:raleway;
+    margin-bottom:30px
+    }
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        opacity: 1; /* Firefox */
+      }
+
+     
+     
+     
